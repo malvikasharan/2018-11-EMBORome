@@ -1,3 +1,0 @@
-This folder comprises of the course materials shared at the EMBO Practical Course
-Computational analysis of protein-protein interactions: Sequences, networks and diseases
-05 – 10 November 2018 | Rome, Italy.
