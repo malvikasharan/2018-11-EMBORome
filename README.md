@@ -22,7 +22,7 @@ DAY 1 - Monday 05 November 2018
 | 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such | databases, minimal information to describe PPIs |
 | 17:00 - 17:30	| Icebreaker & coffee break | - | - |
 | 17:30 - 18:15	| Lecture & Demonstration | Lars Juhl Jensen | Protein association networks with STRING |
-| 18:15 - 19:00	| Lecture & Demonstration | John "Scooter" Morris | Gaining insights into networks: Introducing Cytoscape - I |
+| 18:15 - 19:00	| Lecture & Demonstration | Scooter Morris | Introducing network analysis using Cytoscape |
 | 19:30 onwards	| Dinner | - | - |
 ---
 
@@ -35,8 +35,8 @@ DAY 2 - Tuesday 06 November 2018
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Plenary Talk | Natasha Wood | Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics | 
 | 10:00 - 10:30 | Coffee break | - | - | 
-| 10:30 - 12:00 | Lecture & Demo | Nadezhda Doncheva, John "Scooter" Morris | Gaining insights into networks: Introducing Cytoscape | 
-| 12:00 - 13:00 | Practical | John "Scooter" Morris, Nadezhda & Lars Juhl Jensen | Analysis and visualization of PPI networks using Cytoscape and stringApp | 
+| 10:30 - 12:00 | Lecture & Demo | Nadezhda Doncheva, Scooter Morris | Gaining insights into networks using Cytoscape | 
+| 12:00 - 13:00 | Practical | Scooter Morris, Nadezhda & Lars Juhl Jensen | Analysis and visualization of PPI networks using Cytoscape and stringApp | 
 | 13:00 - 14:30 | Lunch break | - | - | 
 ---
 
@@ -58,10 +58,10 @@ DAY 3 - Wednesday 07 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 09:30 | Lecture | John "Scooter" Morris | Protein structure databases and Chimera tool to explore structure | 
-| 09:30 - 10:30 | Practical & Demo | John “Scooter” Morris | Visualizing protein structures and interaction interfaces with UCSF Chimera | 
+| 09:00 - 09:30 | Lecture | Scooter Morris | Protein structure databases and Chimera tool to explore structure | 
+| 09:30 - 10:30 | Practical & Demo | Scooter Morris | Visualizing protein structures and interaction interfaces with UCSF Chimera | 
 | 10:30 - 11:00 | Coffee break | - | - | 
-| 11:00 - 12:30 | Practical | John “Scooter” Morris | Visualizing very large protein complexes with UCSF ChimeraX | 
+| 11:00 - 12:30 | Practical | Scooter Morris | Visualizing very large protein complexes with UCSF ChimeraX | 
 | 12:30 - 14:30 | Poster session | - | - | 
 | 14:30 onward | Excursion and dinner | - | - | 
 ---
@@ -95,17 +95,11 @@ DAY 5 - Friday 09 November 2018
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Plenary Talk | Norman Davey | Discovery of transient protein-protein interactions | 
 | 10:00 - 10:30 | Coffee break | - | - | 
-| 10:30 - 11:00 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
-| 11:00 - 12:30 | Demonstration | Allegra Via | Understanding PPI through peptide and protein docking | 
----
-
-### Session VII: Hands-on sessions: Working with publicly available disease datasets
-
-| Time | Activity | Responsible | Title |
-| :---------- | :---------- | :---------- |:---------- | 
-| 12:30 - 13:30 | Practical | John "Scooter" Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
+| 10:30 - 11:30 | Practical | Norman Davey | Interactive exploration tools for investigating the functional and evolutionary features of proteins | 
+| 11:30 - 12:30 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
+| 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 13:00 - 14:30 | Lunch break | - | - | 
-| 14:30 - 16:00 | Practical | John "Scooter" Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
+| 14:30 - 16:00 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
 | 16:00 - 17:00 | Public talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
 | 17:00 - 17:30 | Coffee break
 | 17:30 - 19:00 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
@@ -115,16 +109,14 @@ DAY 5 - Friday 09 November 2018
 DAY 6 - Saturday 10 November 2018
 --------------------------------
 
-### Session VIII: Hands-on sessions: Working with publicly available datasets
+### Session VII: Hands-on sessions: Working with publicly available datasets
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Practical session | Miguel Andrade | Exploring tools for modules that promote protein aggregation | 
 | 10:00 - 10:30 | Coffee break | 
-| 10:30 - 12:00 | Practical session | Option 1: Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
-| 10:30 - 12:00	| Practical session | Option 2: Juhl Jensen & Nadezhda Doncheva | Advanced use of Cytoscape | 
-| 10:30 - 12:00	| Practical session | Option 3: John "Scooter" Morris | Advanced use of Chimera-X | 
-| 12:00 - 12:30	| Summary lecture | Allegra Via/speakers | Putting everything in perspective | 
-| 12:30 - 13:00 | Final Q&A session and wrap-up | - | - |
+| 10:30 - 12:00 | Practical session | Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
+| 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective | 
+| 12:45 - 13:00 | Final Q&A session and wrap-up | - | - |
 | Time will be announced | Dinner | - | - | 
 ---
