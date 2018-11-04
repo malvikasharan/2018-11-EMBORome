@@ -95,7 +95,7 @@ DAY 5 - Friday 09 November 2018
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Plenary Talk | Norman Davey | Discovery of transient protein-protein interactions | 
 | 10:00 - 10:30 | Coffee break | - | - | 
-| 10:30 - 11:30 | Practical | Norman Davey | Interactive exploration tools for investigating the functional and evolutionary features of proteins | 
+| 10:30 - 11:30 | Practical | TBD | Investigating the functional and evolutionary features of proteins | 
 | 11:30 - 12:30 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
 | 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 13:00 - 14:30 | Lunch break | - | - | 
