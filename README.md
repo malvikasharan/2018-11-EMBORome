@@ -73,7 +73,7 @@ DAY 4 - Thursday 08 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | Biology and prediction of intrinsically unstructured peptide regions | 
+| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | Biology and prediction of intrinsically unstructured peptide regions | 
 | 10:30 - 11:00 | Coffee break | - | - | 
 | 11:00 - 11:30 | Lecture | Holger Dinkel | Introduction of Linear motifs and IDRs | 
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | Linear motif biology and prediction, cooperativity in cellular signaling (I) | 
@@ -100,7 +100,7 @@ DAY 5 - Friday 09 November 2018
 | 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 13:00 - 14:30 | Lunch break | - | - | 
 | 14:30 - 16:00 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
-| 16:00 - 17:00 | Public talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
+| 16:00 - 17:00 | Plenary talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
 | 17:00 - 17:30 | Coffee break
 | 17:30 - 19:00 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
 | 19:30 onwards | Dinner | - | - | 
