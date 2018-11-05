@@ -44,10 +44,9 @@ DAY 2 - Tuesday 06 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 14:00 - 15:00 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
-| 15:00 - 16:30 | Lecture | Toby Gibson | Modular Protein Architecture and the Construction of Cell Regulatory Systems | 
-| 16:30 - 17:00 | Coffee break | - | - | 
-| 17:00 - 18:30 | Public Unseminar | Malvika Sharan and Holger Dinkel | Bioinformatics Tool-omics. (optional informal discussion and activity | 
+| 14:00 - 15:30 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
+| 15:30 - 1:00 | Coffee break | - | - | 
+| 16:00 - 18:00 | Public Unseminar | Malvika Sharan and Holger Dinkel | Bioinformatics Tool-omics. (optional informal discussion and activity | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
