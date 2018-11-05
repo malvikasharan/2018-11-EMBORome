@@ -22,7 +22,7 @@ DAY 1 - Monday 05 November 2018
 | 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such | databases, minimal information to describe PPIs |
 | 17:00 - 17:30	| Icebreaker & coffee break | - | - |
 | 17:30 - 18:15	| Lecture & Demonstration | Lars Juhl Jensen | Protein association networks with STRING |
-| 18:15 - 19:00	| Lecture & Demonstration | Scooter Morris | Introducing network analysis using Cytoscape |
+| 18:15 - 19:00	| Lecture & Demonstration | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
 | 19:30 onwards	| Dinner | - | - |
 ---
 
