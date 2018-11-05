@@ -18,11 +18,11 @@ DAY 1 - Monday 05 November 2018
 | 10:30 - 11:30	| Lecture & Demo | Marco Punta | Resources for Protein families, protein domains and protein complexes - I |
 | 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
 | 13:00 - 14:30	| Lunch break | - | - |
-| 14:30 - 15:30	| Plenary Talk | Lars Juhl Jensen | [Medical data mining: linking diseases, drugs, and adverse reactions](training_material/medical_data_mining.pdf) |
-| 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs |
-| 17:00 - 17:30	| Icebreaker & coffee break | - | - |
-| 17:30 - 18:15	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
-| 18:15 - 19:00	| Lecture & Demo | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
+| 14:30 - 15:00	| Lecture & Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II (continues)](training_material/EMBO-Rome-Files-Marco) |
+| 15:00 - 16:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs |
+| 16:00 - 16:30	| Icebreaker & coffee break | - | - |
+| 16:30 - 17:30	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
+| 17:30 - 18:30	| Lecture & Demo | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
 | 19:30 onwards	| Dinner | - | - |
 ---
 
@@ -95,7 +95,7 @@ DAY 5 - Friday 09 November 2018
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Plenary Talk | Norman Davey | Discovery of transient protein-protein interactions | 
 | 10:00 - 10:30 | Coffee break | - | - | 
-| 10:30 - 11:30 | Practical | TBD | Investigating the functional and evolutionary features of proteins | 
+| 10:30 - 11:30 | Practical | Lars Juhl Jensen | [Medical data mining: linking diseases, drugs, and adverse reactions](training_material/medical_data_mining.pdf) | | 
 | 11:30 - 12:30 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
 | 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 13:00 - 14:30 | Lunch break | - | - | 
