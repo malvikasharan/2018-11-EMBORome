@@ -28,16 +28,12 @@ We want to get Jalview installed on your computers before starting.
 Epsins are important proteins for receptor mediated endocytosis. And
 they illustrate protein modularity very well.
 
--   Go to the Jalview [downloads
-    page](http://www.jalview.org/download.html) and choose "Launch
-    Jalview Desktop"
-
 -   Load a set of sequences by cut and paste into Jalview using:
 
 -   File-\>Input Alignment-\> from Text Box
 
 -   Get the sequences from [this page of Epsin
-    Sequences](https://github.com/malvikasharan/2018-11-EMBORome/blob/master/training_material/TobyGibson/epsins.fasta)
+    Sequences](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/TobyGibson/epsins.fasta)
     in FASTA format
 
 -   Remotely align sequences via the Web Service-\>Alignment-\> options
@@ -70,9 +66,15 @@ they illustrate protein modularity very well.
 
     1.  \- NPF motif RegExp is **NPF**
 
-        \- DPW motif RegExp is **DP\[FW\]**
+    <!-- -->
+
+    1.  \- DPW motif RegExp is **DP\[FW\]**
 
         \- Clathrin box RegExp is **L\[IVLMF\].\[IVLMF\]\[DE\]**
+
+    <!-- -->
+
+    1.  
 
 -   Follow this up by creating and naming a New Feature from the pattern
     matches
@@ -177,7 +179,7 @@ proteins, induce the actin pedestal. The central portion of Tir remains
 extracellular and is bound by the bacterium. Many Tir isolates have been
 sequenced and are in Uniprot. Load by cut and paste this [already
 aligned set of Tir
-proteins](https://github.com/malvikasharan/2018-11-EMBORome/blob/master/training_material/TobyGibson/tir.fasta)
+proteins](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/TobyGibson/tir.fasta)
 into Jalview. Use the p53 motifs above to find the Cyclin and CDK motif
 entries and use the regular expressions to create new features in all
 sequences. 
@@ -210,7 +212,8 @@ is a substrate?
 
 Now find the **NPY** motif which binds the I-BAR domain and is essential
 for pedestal formation. This motif is well described in bacteria but not
-yet in a human host cell protein (PMID:21893288).
+yet in a human host cell protein
+([PMID:21893288](http://www.ncbi.nlm.nih.gov/pubmed/21893288)).
 
 Tir has a lot of known motifs that interact with host proteins. However
 there is still a lot of conserved sequence, suggesting that Tir will
@@ -223,7 +226,7 @@ CagA effector proteins are secreted by pathogenic Helicobacter directly
 into the cytosol. These large proteins modulate the actin cytoskeleton
 and the overall status of the cell. Load by cut and paste this [already
 aligned set of CagA proteins
-into](https://github.com/malvikasharan/2018-11-EMBORome/blob/master/training_material/TobyGibson/CagA_aligned.mfa)
+into](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/TobyGibson/CagA_aligned.mfa)
 Jalview. The EPIYA motif regular expression from ELM is
 **EP\[IL\]Y\[TAG\]** -- use it to search the alignment, making a new
 feature.
@@ -234,7 +237,8 @@ feature.
 
 -   What is the most EPIYA motifs in one protein?
 
--   Do any of the EPIYA motifs match to typical Y..\[IVLM\] SH2 motifs?
+-   Do any of the EPIYA motifs match to typical **Y..\[IVLM\]** SH2
+    motifs?
 
 -   Do you think the CagA proteins are phosphorylated by Tyrosine
     Kinases?
