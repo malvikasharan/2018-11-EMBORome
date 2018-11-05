@@ -15,14 +15,14 @@ DAY 1 - Monday 05 November 2018
 | 09:00 - 09:15	| Course Begins | Allegra Via | Introduction to the Course and Speakers |
 | 09:15 - 10:00	| Overview lecture | Toby Gibson | Computational analysis of protein-protein interactions in cell function |
 | 10:00 - 10:30	| Icebreaker & coffee break | - | - |
-| 10:30 - 11:30	| Lecture & Demo | Marco Punta | Resources for Protein families, protein domains and protein complexes (I) |
-| 11:30 - 13:00	| Practical | Marco Punta | Resources for Protein families, protein domains and protein complexes (II) |
+| 10:30 - 11:30	| Lecture & Demo | Marco Punta | Resources for Protein families, protein domains and protein complexes - I |
+| 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
 | 13:00 - 14:30	| Lunch break | - | - |
-| 14:30 - 15:30	| Plenary Talk | Lars Juhl Jensen | Medical data mining: linking diseases, drugs, and adverse reactions |
-| 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such | databases, minimal information to describe PPIs |
+| 14:30 - 15:30	| Plenary Talk | Lars Juhl Jensen | [Medical data mining: linking diseases, drugs, and adverse reactions](training_material/medical_data_mining.pdf) |
+| 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs |
 | 17:00 - 17:30	| Icebreaker & coffee break | - | - |
-| 17:30 - 18:15	| Lecture & Demonstration | Lars Juhl Jensen | Protein association networks with STRING |
-| 18:15 - 19:00	| Lecture & Demonstration | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
+| 17:30 - 18:15	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
+| 18:15 - 19:00	| Lecture & Demo | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
 | 19:30 onwards	| Dinner | - | - |
 ---
 
@@ -73,7 +73,7 @@ DAY 4 - Thursday 08 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | Biology and prediction of intrinsically unstructured peptide regions | 
+| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | Biology and prediction of intrinsically unstructured peptide regions | 
 | 10:30 - 11:00 | Coffee break | - | - | 
 | 11:00 - 11:30 | Lecture | Holger Dinkel | Introduction of Linear motifs and IDRs | 
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | Linear motif biology and prediction, cooperativity in cellular signaling (I) | 
@@ -100,7 +100,7 @@ DAY 5 - Friday 09 November 2018
 | 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 13:00 - 14:30 | Lunch break | - | - | 
 | 14:30 - 16:00 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
-| 16:00 - 17:00 | Public talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
+| 16:00 - 17:00 | Plenary talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
 | 17:00 - 17:30 | Coffee break
 | 17:30 - 19:00 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
 | 19:30 onwards | Dinner | - | - | 
