@@ -1,0 +1,223 @@
+<h1 id="representational-state-transfer-rest">Representational State Transfer (REST)</h1>
+<p><strong>Presentation Slides</strong>:</p>
+<ul>
+<li><a href="Exploring_Biological_Databases.pdf" class="uri">Exploring_Biological_Databases.pdf</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>There are many different biological / bioinformatic resources out there waiting to be queried and most of them have simple to use HTTP interfaces. However when one needs to retrieve more complex or greater amounts of information, scientist often download the whole database content and write scripts to weed out the information needed.</p>
+<p>Web-Services have been developed to bridge this gap by allowing programmatic access to a resource. Here, we want to investigate existing REST interfaces and using examples to show their usefulness.</p>
+<p>These exercises are meant to show unskilled (non-bioinformaticians) first steps toward programmatically accessing databases and to show experienced bioinformaticians possibly new ways in which to more efficiently use these resources.</p>
+<h2 id="technical-definition-of-rest">Technical definition of REST</h2>
+<p>A <strong>RESTful</strong> application is an application that exposes its state and functionality as a set of resources that the clients can manipulate and conforms to a certain set of principles:</p>
+<ul>
+<li>All resources are uniquely addressable, usually through URIs; other addressing can also be used, though.</li>
+<li>All resources can be manipulated through a constrained set of well-known actions, usually CRUD (create, read, update, delete), represented most often through the HTTP’s POST, GET, PUT and DELETE; it can be a different set or a subset though - for example, some implementations limit that set to read and modify only (GET and PUT) for example</li>
+<li>The data for all resources is transferred through any of a constrained number of well-known representations, usually HTML, XML or JSON; The communication between the client and the application is performed over a <em>stateless</em> protocol that allows for multiple layered intermediaries that can reroute and cache the requests and response packets transparently for the client and the application.</li>
+</ul>
+<p><strong>Remember</strong>:</p>
+<p>A <strong>URL</strong> defines a path to a resource Parameters provide additional arguments etc. usually in the form parameter=value; (Note: the first parameter is separated from the url by ‘<strong>?</strong>’ while subsequent ones use ‘<strong>&amp;</strong>’.</p>
+<p><strong>Example</strong>:</p>
+<p><a href="https://startpage.com/do/search?query=EMBO&amp;with_language=lang_de" class="uri">https://startpage.com/do/search?query=EMBO&amp;with_language=lang_de</a></p>
+<p>Here, two arguments are given, the first <em>query</em> with the value <em>EMBO</em> and the second <em>with_language</em> with the value <em>lang_de</em></p>
+<h2 id="querying-resources">Querying Resources</h2>
+<p>We’ll use resources that you’ve seen earlier today (phospho.elm) as a starter and then focus mainly on the uniprot database as it has an extensive repertoire of features to query and will be of most use to everybody involved in protein sequence analysis. At the end you’ll find an outlook to other resources which you might find interesting to query.</p>
+<p>Note: for all these examples, any common browser can be used, however for proper ‘programmatic’ access tools such as <code>curl</code> or <code>wget</code> on the Linux/Mac commandline are much more efficient and can easily be incorporated into little scripts…</p>
+<h2 id="websites-providing-rest-interfaces">Websites providing REST interfaces</h2>
+<h3 id="phospho.elm">Phospho.ELM</h3>
+<ul>
+<li>Website: <a href="http://phospho.elm.eu.org" class="uri">http://phospho.elm.eu.org</a></li>
+<li>REST help: <a href="http://phospho.elm.eu.org/help.html" class="uri">http://phospho.elm.eu.org/help.html</a></li>
+</ul>
+<p>Phospho.ELM is a database of experimentally verified phosphorylation sites in eukaryotic proteins containing almost 9.000 substrate proteins from different species covering more than 40.000 instances with literature references.</p>
+<p>Earlier today you’ve accessed Phospho.ELM using HTML as response. Now we would like to retrieve results in text format which is much easier to parse. The Phospho.ELM help page describes some examples how you can access this resource</p>
+<ul>
+<li>Repeat the search for ‘CASP9_HUMAN’ (<a href="http://phospho.elm.eu.org/byAccession/CASP9_HUMAN.html" class="uri">http://phospho.elm.eu.org/byAccession/CASP9_HUMAN.html</a>), this time retrieve the results as csv</li>
+<li>Limit this search to position 125 (as html or csv format)</li>
+<li>Get all substrates of the kinase ‘Abl2’ as csv format.</li>
+<li>Get all instances which are annotated as being recognized/binding to ‘GRB2_SH2’</li>
+<li>You’ve retrieved from Uniprot (see section on Uniprot below) a list of protein IDs of the protein ‘abl1’ in different organisms (P03949, P00519, P00520, P00522). Try to get in one query all annotated phosphorylation sites for these.</li>
+</ul>
+<h3 id="elm">ELM</h3>
+<ul>
+<li>Website: <a href="http://elm.eu.org" class="uri">http://elm.eu.org</a></li>
+<li>REST help: <a href="http://elm.eu.org/downloads.html" class="uri">http://elm.eu.org/downloads.html</a></li>
+</ul>
+<p>ELM is a repository of functional linear motif sites in eukarytic proteins as well as a prediction tool to detect novel linear motif instances. Similar to Phospho.ELM, the Eukaryotic Linear Motif Resource can be queried via a REST-like interface (see the Downloads page for details)</p>
+<ol type="1">
+<li>Get all instance sequences annotated for protein acc ‘TAU_HUMAN’ as FASTA format using the <a href="http://elm.eu.org/instances/">web form</a>.</li>
+<li>Try to construct the URL by hand which you need to download ELM instances for the protein id <code>EPN1_HUMAN</code> <!--- (OPTIONAL) Inspect these sequences and pay attention to the protein id / primary acc. --></li>
+</ol>
+<h3 id="uniprot">Uniprot</h3>
+<ul>
+<li>Website: <a href="http://www.uniprot.org" class="uri">http://www.uniprot.org</a></li>
+<li>REST help: <a href="http://www.uniprot.org/help/programmatic_access">FAQ on Programmatic access</a>.</li>
+</ul>
+<p>The Universal Protein Resource (<a href="http://www.uniprot.org">UniProt</a>) is a comprehensive resource for protein sequence and annotation data consisting of the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc) and more.</p>
+<p>To access a full Uniprot entry by its unique id (as HTML), you would type <a href="http://www.uniprot.org/uniprot/P12931" class="uri">http://www.uniprot.org/uniprot/P12931</a> The same data is available in different formats:</p>
+<ul>
+<li><a href="http://www.uniprot.org/uniprot/P12931.txt" class="uri">http://www.uniprot.org/uniprot/P12931.txt</a> Text only</li>
+<li><a href="http://www.uniprot.org/uniprot/P12931.xml" class="uri">http://www.uniprot.org/uniprot/P12931.xml</a> XML format</li>
+<li><a href="http://www.uniprot.org/uniprot/P12931.rdf" class="uri">http://www.uniprot.org/uniprot/P12931.rdf</a> Special form of XML (Resource Description Framework)</li>
+<li><a href="http://www.uniprot.org/uniprot/P12931.fasta" class="uri">http://www.uniprot.org/uniprot/P12931.fasta</a> only the sequence in FASTA format</li>
+<li><a href="http://www.uniprot.org/uniprot/P12931.gff" class="uri">http://www.uniprot.org/uniprot/P12931.gff</a> only the protein features in GFF (General Feature Format)</li>
+</ul>
+<h4 id="exercise">Exercise:</h4>
+<ol type="1">
+<li>Try these links to get a feeling for the different formats.</li>
+<li>Substitute the id (P12931) with the name or id of a protein of interest (‘ABL1_HUMAN’, ‘Epsin’). Which of these works, which doesn’t?</li>
+</ol>
+<h4 id="performing-queries">Performing queries</h4>
+<p>While the FASTA and GFF format only show a limited set of data of any protein dataset, the HTML and TEXT representations demonstrate the large amount of data that is annotated at Uniprot. Chances are not everybody needs all the data all the time. Therefore Uniprot allows to specify which fields to query and to return only selected fields. Use the Uniprot help page and in particular pay attention to the list of possible query fields for the following exercises!</p>
+<p>In order to get yourself acquainted with the Uniprot syntax, please use the button ‘Advanced Search’ at the uniprot homepage to construct your uniprot queries (yielding HTML results).</p>
+<ol type="1">
+<li>Search for all proteins with the name <code>GRB2</code> which have the status <code>reviewed</code></li>
+<li>Next, copy this: <code>name:GRB2 AND reviewed:yes</code> from the search field into the url: <code>http://www.uniprot.org/uniprot/?query=</code> so that your URL looks like this: <code>http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes</code></li>
+<li>Add the following to your query to turn the output format from HTML to TAB: <code>&amp;format=tab</code>: <code>http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes&amp;format=tab</code></li>
+<li><p>Repeat this query with protein name <code>ABL1</code>. How many resulting lines do you get?</p>
+<p><strong>Different formats</strong></p>
+<p>The uniprot output format can be one of:</p>
+<ul>
+<li>html</li>
+<li>tab</li>
+<li>xls</li>
+<li>fasta</li>
+<li>gff</li>
+<li>txt</li>
+<li>xml</li>
+<li>rdf</li>
+<li>list</li>
+<li>rss</li>
+</ul></li>
+<li>Try the previous exercises (eg. searching for GRB2 or ABL1) with at least three different output formats.</li>
+<li><p>(OPTIONAL) Instead of GRB2 or ABL1, try your favorite protein of interest.</p></li>
+</ol>
+<p><strong>Limiting results</strong></p>
+<p>While testing your queries, it’s a good idea to limit the number of results (in order not to stress the server or block your browser) <code>&amp;limit=10</code>.</p>
+<h4 id="example">Example:</h4>
+<p>Retrieving the first ten human sequences as fasta:</p>
+<p><a href="http://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&amp;limit=10&amp;format=fasta" class="uri">http://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&amp;limit=10&amp;format=fasta</a></p>
+<p>You can ‘walk’ along a set of results by using limit and offset, eg to retrieve the next 10 results of previous query:</p>
+<p><a href="http://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&amp;limit=10&amp;offset=10&amp;format=fasta" class="uri">http://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&amp;limit=10&amp;offset=10&amp;format=fasta</a></p>
+<ol type="1">
+<li>Try to get all proteins which have ‘ABL2’ in their name in tab format.</li>
+<li>How many are there?</li>
+<li>Try to ‘walk’ along these results by using a limit of 3 and an appropriate offset until you’ve seen all results.</li>
+</ol>
+<p><strong>Selecting columns</strong></p>
+<ol type="1">
+<li>Read the <a href="http://www.uniprot.org/help/programmatic_access#retrieving_entries_via_queries">FAQ</a> (table in section ‘Retrieving entries via queries’) and find out which columns can be selected as returnvalues.</li>
+<li>Using the tab format, retrieve all proteins named ‘Proepiregulin’ and select ‘id’, ‘entry name’, and ‘genes’ as output columns.</li>
+<li>Using the same format and protein name, try at least three different column types as return (first indivdually, then all three at once)</li>
+<li>Get all ‘ABL1’ proteins and use ‘entry name’ and ‘interactor’ as output.</li>
+<li>Which of these proteins have interactors annotated?</li>
+<li>Use the additional column ‘taxon’</li>
+</ol>
+<p><strong>Length</strong></p>
+<p>Now, we want to restrict our search by sequence length:</p>
+<ol type="1">
+<li>First, retrieve (as tabular format) proteins which have the gene name ‘ABL1’ and the ‘reviewed’ status.</li>
+<li>How many sequences are retrieved?</li>
+<li>Next, limit the results by setting the sequence length to between 1000 and 1200 using the following parameter format: <code>length:[1000 TO 1200]</code> (Note: the ‘TO’ needs to be uppercase)</li>
+<li>How many sequences are now retrieved?</li>
+</ol>
+<p><strong>Searching for annotations</strong></p>
+<ol type="1">
+<li>Search for all proteins which have the domain ‘CAP_GLY’ annotated.</li>
+<li>Use ‘id’ and ‘domain’ as output column (tabbed format) to see the overall domain architecture of these proteins.</li>
+<li>List the first 10 human proteins which are annotated as transmembrane by adjusting the following query: <code>annotation: (type:transmem count:[5 TO \*])</code></li>
+</ol>
+<p><strong>Database crosslinks</strong></p>
+<ol type="1">
+<li>(Optional) Search for entries which have a link to the PDB entry ‘1NW9’.</li>
+<li>How many/which entries do you find?</li>
+</ol>
+<h2 id="more-public-bioinformatics-databases-with-rest-interfaces">More public bioinformatics databases with REST interfaces</h2>
+<h3 id="rscb-pdb">RSCB PDB</h3>
+<ul>
+<li>Website: <a href="http://www.rcsb.org/pdb/home/home.do" class="uri">http://www.rcsb.org/pdb/home/home.do</a></li>
+<li>REST help: <a href="http://www.rcsb.org/pdb/software/rest.do" class="uri">http://www.rcsb.org/pdb/software/rest.do</a></li>
+</ul>
+<p>The Research Collaboratory for Structural Bioinformatics (RCSB) is hosting the Protein Data Bank (PDB) archive, which is the single worldwide repository of information about the 3D structures of large biological molecules, including proteins and nucleic acids.</p>
+<h4 id="examples">Examples:</h4>
+<ol type="1">
+<li><p>Get status of Structure 1HHB: <a href="http://www.rcsb.org/pdb/rest/idStatus?structureId=1HHB" class="uri">http://www.rcsb.org/pdb/rest/idStatus?structureId=1HHB</a></p></li>
+<li><p>Try to receive the following PDB files (as text): 1NW9, 2H63</p></li>
+</ol>
+<h3 id="ensembl">Ensembl</h3>
+<ul>
+<li>Website: <a href="http://www.ensembl.org" class="uri">http://www.ensembl.org</a></li>
+<li>REST help: <a href="http://beta.rest.ensembl.org/" class="uri">http://beta.rest.ensembl.org/</a></li>
+</ul>
+<p>Ensembl is a joint scientific project between the European Bioinformatics Institute (EBI) and the Wellcome Trust Sanger Institute, which was launched in 1999 in response to the imminent completion of the Human Genome Project. After 10 years in existence, Ensembl’s aim remains to provide a centralized resource for geneticists, molecular biologists and other researchers studying the genomes of our own species and other vertebrates and model organisms. Ensembl is one of several well known genome browsers for the retrieval of genomic information.</p>
+<p>The Ensembl REST web-service is a convenient way to access some of our popular datatypes such as the VEP, Sequence retrieval, assembly coordinate transformations, gene homologies and cross-references. The data can be requested with simple HTTP requests and returned in a variety of programatic and bioinformatical relevant formats such as JSON, XML, YAML and FASTA.</p>
+<h4 id="examples-1">Examples:</h4>
+<ol type="1">
+<li>Retrieving a single DNA sequence: <a href="http://beta.rest.ensembl.org/sequence/id/ENSG00000157764" class="uri">http://beta.rest.ensembl.org/sequence/id/ENSG00000157764</a></li>
+<li><p>multiple sequences translated to protein: <a href="http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein" class="uri">http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein</a></p>
+<pre><code> curl &#39;http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein&#39; -H &#39;Content-type:text/x-fasta&#39;</code></pre></li>
+</ol>
+<h3 id="string">String</h3>
+<ul>
+<li>Website: <a href="http://string.embl.de" class="uri">http://string.embl.de</a></li>
+<li>REST help: <a href="http://string-db.org/help/index.jsp?topic=/org.string-db.docs/api.html" class="uri">http://string-db.org/help/index.jsp?topic=/org.string-db.docs/api.html</a></li>
+</ul>
+<p>STRING is a database of known and predicted protein interactions including direct (physical) and indirect (functional) associations, derived from different sources. The STRING resource has an application programming interface (API) which enables users to get data without using the graphical user interface of the web page.</p>
+<h4 id="examples-2">Examples:</h4>
+<ol type="1">
+<li><p>Retrieve all STRING interactions for id ‘ABL1_HUMAN’ as psi-mi-tab format <a href="http://string-db.org/api/psi-mi-tab/interactionsList?identifiers=ABL1_HUMAN" class="uri">http://string-db.org/api/psi-mi-tab/interactionsList?identifiers=ABL1_HUMAN</a></p></li>
+<li><p>Download the network image of interactions of protein id P12931, limit the number of nodes to 20 <a href="http://string-db.org/api/image/network?identifier=P12931&amp;required_score=950&amp;limit=20&amp;network_flavor=evidence" class="uri">http://string-db.org/api/image/network?identifier=P12931&amp;required_score=950&amp;limit=20&amp;network_flavor=evidence</a></p></li>
+<li><p>Get a list of items (resolve) using the query term ‘ABL1’ and species 9606. Why do you get so many results? <a href="http://string-db.org/api/tsv/resolve?identifier=ABL1&amp;species=9606" class="uri">http://string-db.org/api/tsv/resolve?identifier=ABL1&amp;species=9606</a></p></li>
+<li><p>Get a list of all STRING ids (format=only-ids) for the protein ‘ABL1_HUMAN’ (use ‘tsv-no-header’) <a href="http://string-db.org/api/tsv-no-header/resolve?identifier=ABL1_HUMAN&amp;format=only-ids" class="uri">http://string-db.org/api/tsv-no-header/resolve?identifier=ABL1_HUMAN&amp;format=only-ids</a></p></li>
+</ol>
+<h3 id="pfam">Pfam</h3>
+<ul>
+<li>Website: <a href="http://pfam.sanger.ac.uk" class="uri">http://pfam.sanger.ac.uk</a></li>
+<li>REST help: <a href="http://pfam.sanger.ac.uk/help#tabview=tab10" class="uri">http://pfam.sanger.ac.uk/help#tabview=tab10</a></li>
+</ul>
+<p>The Pfam database is a large collection of protein domain families. Each family is represented by multiple sequence alignments and hidden Markov models (HMMs).</p>
+<p>Currently, Pfam provides only XML as output format, however a list of all families can be retrieved as simple list:</p>
+<p><a href="http://pfam.sanger.ac.uk/families?output=text" class="uri">http://pfam.sanger.ac.uk/families?output=text</a></p>
+<h4 id="examples-3">Examples:</h4>
+<ol type="1">
+<li><p>Getting information about a domain family: <a href="http://pfam.sanger.ac.uk/family/CAP_GLY?output=xml" class="uri">http://pfam.sanger.ac.uk/family/CAP_GLY?output=xml</a></p></li>
+<li><p>Retrieving information about domains within a given protein id: <a href="http://pfam.sanger.ac.uk/protein/P00789?output=xml" class="uri">http://pfam.sanger.ac.uk/protein/P00789?output=xml</a></p></li>
+</ol>
+<h3 id="reflect">Reflect</h3>
+<ul>
+<li>Website: <a href="http://www.reflect.ws/" class="uri">http://www.reflect.ws/</a></li>
+<li>REST help: <a href="http://www.reflect.ws/REST_API.html" class="uri">http://www.reflect.ws/REST_API.html</a></li>
+</ul>
+<p>Reflect is a free service that tags gene, protein, and small molecule names in any web page within a few seconds. Clicking on a tagged term opens a small popup showing summary information. Reflect can be installed as a plugin to Firefox or Internet Explorer, or can used by entering a URL in the field above.</p>
+<p>The Reflect REST API is geared towards resource developers who wish to use the Reflect tagging service in their own domain. <a href="http://www.reflect.ws/REST_API.html" class="uri">http://www.reflect.ws/REST_API.html</a></p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Representational_State_Transfer" class="uri">http://en.wikipedia.org/wiki/Representational_State_Transfer</a></li>
+<li><a href="http://www.programmableweb.com/apis/directory/1?protocol=rest">Programmable web registry</a></li>
+<li><a href="http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi0109s20/full">Using the Tools and Resources of the RCSB Protein Data Bank</a></li>
+<li><a href="http://restclient.net/">Firefox Plugin to debug REST queries</a></li>
+</ul>
+<!-- ## Advanced applications -->
+<!--  -->
+<!-- Using Phospho.ELM REST interface, find out which residues are preferentially phosphorylated by AuroraA kinase: -->
+<!--  -->
+<!--     curl -s "http://phospho.elm.eu.org/byKinase/Aurora%20A.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c -->
+<!--         24  S -->
+<!--          6  T -->
+<!--  -->
+<!-- In contrast, which residues are preferentially phosphorylated by Abl kinase: -->
+<!--  -->
+<!--     curl -s "http://phospho.elm.eu.org/byKinase/Abl.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c -->
+<!--         55  Y -->
+<!--  -->
+<!-- Retrieving all proteins which contain at least one SH3 domain and at least three domains in total and are between 200 and 500 amino acids in length: -->
+<!--  -->
+<!--     wget -q "http://www.uniprot.org/uniprot/&format=tab&query=domain:SH3 AND annotation:(type:domain count:[3 TO *]) AND length:[200 TO 500]" -->
+<!--  -->
+<!-- First, query Uniprot for reviewed protein ID P46844 and retrieve only the column `database(pdb)`. Use these PDB ids to get MolecularDescriptions of the corresponding PDB structures from RCSB: -->
+<!--  -->
+<!--     wget -q "http://www.uniprot.org/uniprot/?query=P46844 AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ',' | xargs -I '{}' curl "http://www.rcsb.org/pdb/rest/describeMol?structureId={}" -->
+<!--  -->
+<!-- Get all cross-references to PDB from Uniprot querying for Caspases: -->
+<!--  -->
+<!--     for i in $(wget -q "http://www.uniprot.org/uniprot/?query=caspase AND reviewed:yes AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ' '); do echo $i; done -->
+<!--  -->
