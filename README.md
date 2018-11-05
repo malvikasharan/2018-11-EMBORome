@@ -15,8 +15,8 @@ DAY 1 - Monday 05 November 2018
 | 09:00 - 09:15	| Course Begins | Allegra Via | Introduction to the Course and Speakers |
 | 09:15 - 10:00	| Overview lecture | Toby Gibson | Computational analysis of protein-protein interactions in cell function |
 | 10:00 - 10:30	| Icebreaker & coffee break | - | - |
-| 10:30 - 11:30	| Lecture & Demo | Marco Punta | [Resources for Protein families, protein domains and protein complexes (I)](training_material/EMBO-Rome-Files-Marco) |
-| 11:30 - 13:00	| Practical | Marco Punta | Resources for Protein families, protein domains and protein complexes (II) |
+| 10:30 - 11:30	| Lecture & Demo | Marco Punta | [Resources for Protein families, protein domains and protein complexes - I |
+| 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
 | 13:00 - 14:30	| Lunch break | - | - |
 | 14:30 - 15:30	| [Plenary Talk](training_material/medical_data_mining.pdf) | Lars Juhl Jensen | Medical data mining: linking diseases, drugs, and adverse reactions |
 | 15:30 - 17:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such | databases, minimal information to describe PPIs |
