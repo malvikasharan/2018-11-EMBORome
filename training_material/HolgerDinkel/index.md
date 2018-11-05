@@ -212,7 +212,7 @@ The Research Collaboratory for Structural Bioinformatics (RCSB) is hosting the P
 ### Ensembl
 
 - Website: <http://www.ensembl.org>
-- REST help: <http://beta.rest.ensembl.org/>
+- REST help: <http://rest.ensembl.org/>
 
 Ensembl is a joint scientific project between the European Bioinformatics Institute (EBI) and the Wellcome Trust Sanger Institute, which was launched in 1999 in response to the imminent completion of the Human Genome Project. After 10 years in existence, Ensembl's aim remains to provide a centralized resource for geneticists, molecular biologists and other researchers studying the genomes of our own species and other vertebrates and model organisms. Ensembl is one of several well known genome browsers for the retrieval of genomic information.
 
@@ -220,11 +220,11 @@ The Ensembl REST web-service is a convenient way to access some of our popular d
 
 #### Examples:
 
-1. Retrieving a single DNA sequence: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764>
-1. multiple sequences translated to protein: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein>
+1. Retrieving a single DNA sequence: <http://rest.ensembl.org/sequence/id/ENSG00000157764>
+1. multiple sequences translated to protein: <http://rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein>
 
 
-        curl 'http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein' -H 'Content-type:text/x-fasta'
+        curl 'http://rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein' -H 'Content-type:text/x-fasta'
 
 
 
@@ -255,21 +255,21 @@ The STRING resource has an application programming interface (API) which enables
 ### Pfam
 
 - Website: <http://pfam.sanger.ac.uk>
-- REST help: <http://pfam.sanger.ac.uk/help#tabview=tab10>
+- REST help: <http://pfam.xfam.org/help#helpRestBlock>
 
 The Pfam database is a large collection of protein domain families. Each family is represented by multiple sequence alignments and hidden Markov models (HMMs).
 
 Currently, Pfam provides only XML as output format, however a list of all families can be retrieved as simple list:
 
-<http://pfam.sanger.ac.uk/families?output=text>
+<http://pfam.xfam.org/families?output=text>
 
 #### Examples:
 
 1. Getting information about a domain family:
-<http://pfam.sanger.ac.uk/family/CAP_GLY?output=xml>
+<http://pfam.xfam.org/family/CAP_GLY?output=xml>
 
 1. Retrieving information about domains within a given protein id:
-<http://pfam.sanger.ac.uk/protein/P00789?output=xml>
+<http://pfam.xfam.org/protein/P00789?output=xml>
 
 
 
