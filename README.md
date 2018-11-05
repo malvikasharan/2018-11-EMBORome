@@ -82,7 +82,7 @@ DAY 4 - Thursday 08 November 2018
 | 15:30 - 17:00 | Lecture & Practical | Miguel Andrade  | Structure and interactions of repeated and low complexity IDRs in proteins | 
 | 17:00 - 17:30 | Coffee break | - | - | 
 | 17:30 - 19:00 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |
-| 17:30 - 19:00 | Option-2: Practical session | Holger Dinkel | Linear motif biology and prediction, cooperativity in cellular signaling (III): automated access of online tools using REST interfaces | 
+| 17:30 - 19:00 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling (III): automated access of online tools using REST interfaces/(training_material/HolgerDinkel/index.md) | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
