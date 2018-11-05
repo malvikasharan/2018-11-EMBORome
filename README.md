@@ -13,7 +13,7 @@ DAY 1 - Monday 05 November 2018
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 09:15	| Course Begins | Allegra Via | Introduction to the Course and Speakers |
-| 09:15 - 10:00	| Overview lecture | Toby Gibson | Computational analysis of protein-protein interactions in cell function |
+| 09:15 - 10:00	| Overview lecture | Toby Gibson | [Computational analysis of protein-protein interactions in cell function](training_material/TobyGibson/Rome_PPI_intro_18.pdf) |
 | 10:00 - 10:30	| Icebreaker & coffee break | - | - |
 | 10:30 - 11:30	| Lecture & Demo | Marco Punta | Resources for Protein families, protein domains and protein complexes - I |
 | 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
