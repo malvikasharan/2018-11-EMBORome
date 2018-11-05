@@ -37,17 +37,17 @@ DAY 2 - Tuesday 06 November 2018
 | 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Lecture & Demo | Nadezhda Doncheva, Scooter Morris | Gaining insights into networks using Cytoscape | 
 | 12:00 - 13:00 | Practical | Scooter Morris, Nadezhda & Lars Juhl Jensen | Analysis and visualization of PPI networks using Cytoscape and stringApp | 
-| 13:00 - 14:30 | Lunch break | - | - | 
+| 13:00 - 14:00 | Lunch break | - | - | 
 ---
 
 ### Session III: Protein Alignments
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 14:30 - 15:30 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
-| 15:30 - 17:00 | Lecture | Toby Gibson | Modular Protein Architecture and the Construction of Cell Regulatory Systems | 
-| 17:00 - 17:30 | Coffee break | - | - | 
-| 17:30 - 19:00 | Public Unseminar | Malvika Sharan and Holger Dinkel | Bioinformatics Tool-omics. (optional informal discussion and activity | 
+| 14:00 - 15:00 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
+| 15:00 - 16:30 | Lecture | Toby Gibson | Modular Protein Architecture and the Construction of Cell Regulatory Systems | 
+| 16:30 - 17:00 | Coffee break | - | - | 
+| 17:00 - 18:30 | Public Unseminar | Malvika Sharan and Holger Dinkel | Bioinformatics Tool-omics. (optional informal discussion and activity | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
@@ -77,12 +77,12 @@ DAY 4 - Thursday 08 November 2018
 | 10:30 - 11:00 | Coffee break | - | - | 
 | 11:00 - 11:30 | Lecture | Holger Dinkel | Introduction of Linear motifs and IDRs | 
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | Linear motif biology and prediction, cooperativity in cellular signaling (I) | 
-| 13:00 - 14:30 | Lunch break | - | - | 
-| 14:30 - 15:30 | Practical | Holger Dinkel & Toby Gibson | Linear motif biology and prediction, cooperativity in cellular signaling (II) | 
-| 15:30 - 17:00 | Lecture & Practical | Miguel Andrade  | Structure and interactions of repeated and low complexity IDRs in proteins | 
-| 17:00 - 17:30 | Coffee break | - | - | 
-| 17:30 - 19:00 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |
-| 17:30 - 19:00 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling III: automated access of online tools using REST interfaces](training_material/HolgerDinkel/index.md) | 
+| 13:00 - 14:00 | Lunch break | - | - | 
+| 14:00 - 15:00 | Practical | Holger Dinkel & Toby Gibson | Linear motif biology and prediction, cooperativity in cellular signaling (II) | 
+| 15:00 - 16:30 | Lecture & Practical | Miguel Andrade  | Structure and interactions of repeated and low complexity IDRs in proteins | 
+| 16:30 - 17:00 | Coffee break | - | - | 
+| 17:00 - 18:30 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |
+| 17:00 - 18:30 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling III: automated access of online tools using REST interfaces](training_material/HolgerDinkel/index.md) | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
@@ -98,11 +98,11 @@ DAY 5 - Friday 09 November 2018
 | 10:30 - 11:30 | Practical | Lars Juhl Jensen | [Medical data mining: linking diseases, drugs, and adverse reactions](training_material/medical_data_mining.pdf) | | 
 | 11:30 - 12:30 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
 | 12:30 - 13:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
-| 13:00 - 14:30 | Lunch break | - | - | 
-| 14:30 - 16:00 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
-| 16:00 - 17:00 | Plenary talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
-| 17:00 - 17:30 | Coffee break
-| 17:30 - 19:00 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
+| 13:00 - 14:00 | Lunch break | - | - | 
+| 14:00 - 15:30 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
+| 15:30 - 16:30 | Plenary talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
+| 16:30 - 17:00 | Coffee break
+| 17:00 - 18:30 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
