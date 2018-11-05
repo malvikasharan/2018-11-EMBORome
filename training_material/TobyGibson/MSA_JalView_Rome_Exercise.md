@@ -66,15 +66,11 @@ they illustrate protein modularity very well.
 
     1.  \- NPF motif RegExp is **NPF**
 
-    <!-- -->
-
-    1.  \- DPW motif RegExp is **DP\[FW\]**
+        \- DPW motif RegExp is **DP\[FW\]**
 
         \- Clathrin box RegExp is **L\[IVLMF\].\[IVLMF\]\[DE\]**
 
-    <!-- -->
-
-    1.  
+        1.  
 
 -   Follow this up by creating and naming a New Feature from the pattern
     matches
@@ -162,12 +158,6 @@ motif](http://elm.eu.org/elms/DEG_MDM2_SWIB_1).
 5.  Do all P53 sequences have SUMO sites? Can they all be aligned? If
     not, is there an evolutionary process that can account for their
     change in position?
-
-6.  Do all P53 sequences have reverted SUMO sites? Can they all be
-    aligned?
-
-    -   If some SUMO sites cannot be aligned, is there an evolutionary
-        process that can account for their change in position?
 
 **PART 3. USING JALVIEW WITH Tir PROTEIN ISOLATES FROM PATHOGENIC E.
 COLI**
