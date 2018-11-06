@@ -17,8 +17,8 @@ DAY 1 - Monday 05 November 2018
 | 10:00 - 10:30	| Icebreaker & coffee break | - | - |
 | 10:30 - 11:30	| Lecture & Demo | Marco Punta | Resources for Protein families, protein domains and protein complexes - I |
 | 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
-| 13:00 - 14:30	| Lunch break | - | - |
-| 14:30 - 15:00	| Lecture & Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II (continues)](training_material/EMBO-Rome-Files-Marco) |
+| 13:00 - 14:15	| Lunch break | - | - |
+| 14:15 - 15:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II (continued)](training_material/EMBO-Rome-Files-Marco) |
 | 15:00 - 16:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs |
 | 16:00 - 16:30	| Icebreaker & coffee break | - | - |
 | 16:30 - 17:30	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
