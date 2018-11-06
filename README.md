@@ -78,7 +78,7 @@ DAY 4 - Thursday 08 November 2018
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (I)](training_material/HolgerDinkel/Elm_Phospho_Switches.pdf) | 
 | 13:00 - 14:00 | Lunch break | - | - | 
 | 14:00 - 15:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (II)](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/HolgerDinkel/ELM_tutorial.pdf) | 
-| 15:00 - 16:30 | Lecture & Practical | Miguel Andrade  | Structure and interactions of repeated and low complexity IDRs in proteins | 
+| 15:00 - 16:30 | Lecture & Practical | Miguel Andrade  | [Structure and interactions of repeated and low complexity IDRs in proteins](training_material/MiguelAndrade/lesson_repeats_1.pdf) | 
 | 16:30 - 17:00 | Coffee break | - | - | 
 | 17:00 - 18:30 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |
 | 17:00 - 18:30 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling III: automated access of online tools using REST interfaces](training_material/HolgerDinkel/index.md) | 
@@ -112,7 +112,7 @@ DAY 6 - Saturday 10 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:00 | Practical session | Miguel Andrade | Exploring tools for modules that promote protein aggregation | 
+| 09:00 - 10:00 | Practical session | Miguel Andrade | [Exploring tools for modules that promote protein aggregation](training_material/MiguelAndrade/lesson_repeatsdbs_1.pdf) | 
 | 10:00 - 10:30 | Coffee break | 
 | 10:30 - 12:00 | Practical session | Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
 | 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective | 
