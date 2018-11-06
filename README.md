@@ -77,7 +77,7 @@ DAY 4 - Thursday 08 November 2018
 | 11:00 - 11:30 | Lecture | Holger Dinkel | [Introduction of Linear motifs and IDRs](training_material/HolgerDinkel/Short_Linear_Motifs.pdf) | 
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (I)](training_material/HolgerDinkel/Elm_Phospho_Switches.pdf) | 
 | 13:00 - 14:00 | Lunch break | - | - | 
-| 14:00 - 15:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (II)](training_material/HolgerDinkel/ELM_tutorial.md) | 
+| 14:00 - 15:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (II)](training_material/HolgerDinkel/ELM_tutorial.pdf) | 
 | 15:00 - 16:30 | Lecture & Practical | Miguel Andrade  | Structure and interactions of repeated and low complexity IDRs in proteins | 
 | 16:30 - 17:00 | Coffee break | - | - | 
 | 17:00 - 18:30 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |

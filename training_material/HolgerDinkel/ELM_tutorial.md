@@ -6,7 +6,7 @@ geometry: margin=2cm
 
 
 
-### **[Resources]{.underline}**
+### **[Resources]**
 
 UniProt <http://www.uniprot.org/>
 
@@ -18,7 +18,7 @@ PeCan <https://pecan.stjude.cloud/proteinpaint/>
 
 ProViz <http://proviz.ucd.ie>
 
-**[ELM exercises]{.underline}**
+**[ELM exercises]**
 -------------------------------
 
 **Objective**: Get familiar with the [ELM]{.underline} (Eukaryotic
@@ -262,7 +262,7 @@ by homology' indicator showing any difference?
 **\
 **
 
-**[PeCan exercise]{.underline}**
+**[PeCan exercise]**
 --------------------------------
 
 -   Go to elm.eu.org and enter ETV1\_HUMAN as search term; you should
@@ -297,7 +297,7 @@ cyclin D1 by the SCF^FBXO31^ ubiquitin
 ligase](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5777030/pdf/pnas.201708677.pdf)\"
 *Li* PNAS 2018)
 
-**[ProViz exercise]{.underline}**
+**[ProViz exercise]**
 ---------------------------------
 
 *ProViz aggregates and displays useful information from many resources
@@ -310,19 +310,19 @@ Put p53 into the **Search for a Protein** field
 
 Explore the results!
 
-### **[References:]{.underline}**
+### **[References:]**
 
 +-----------------------------------------------------------------------+
-| > Alexander et al. Sci. Sig 2011 "Spatial exclusivity combined with   |
-| > positive and negative selection of phosphorylation motifs is the    |
-| > basis for context-dependent mitotic signaling"                      |
-| > \[[URL]{.underline}\]                                               |
+| Alexander et al. Sci. Sig 2011 "Spatial exclusivity combined with   |
+| positive and negative selection of phosphorylation motifs is the    |
+| basis for context-dependent mitotic signaling"                      |
+| \[[URL]{.underline}\]                                               |
 +-----------------------------------------------------------------------+
-| > Davey NE, Travé G and Gibson TJ (2011), *\"How viruses hijack cell  |
-| > regulation\"*, Trends Biochem Sci., Mar, 2011. Vol. 36, pp.         |
-| > 159-169. \[[DOI]{.underline}\]                                      |
-| > \[[[URL]{.underline}](http://dx.doi.org/10.1016/j.tibs.2010.10.002) |
-| \]                                                                    |
+| Davey NE, Travé G and Gibson TJ (2011), *\"How viruses hijack cell  |
+| regulation\"*, Trends Biochem Sci., Mar, 2011. Vol. 36, pp.         |
+| 159-169. \[[DOI]{.underline}\]                                      |
+| \[[[URL]{.underline}](http://dx.doi.org/10.1016/j.tibs.2010.10.002)]|
+|                                                                     |
 +-----------------------------------------------------------------------+
 | > Davey NE, Van Roey K, Weatheritt RJ, Toedt G, Uyar B, Altenberg B,  |
 | > Budd A, Diella F, Dinkel H and Gibson TJ (2012), *\"Attributes of   |
