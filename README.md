@@ -57,10 +57,10 @@ DAY 3 - Wednesday 07 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 09:30 | Lecture | Scooter Morris | Protein structure databases and Chimera tool to explore structure | 
+| 09:00 - 09:30 | Lecture | Scooter Morris | [Protein structure databases and Chimera tool to explore structure](https://rbvi.github.io/chimera-tutorials/presentations/chimera-intro-embo-2018-rome.html) | 
 | 09:30 - 10:30 | Practical & Demo | Scooter Morris | Visualizing protein structures and interaction interfaces with UCSF Chimera | 
 | 10:30 - 11:00 | Coffee break | - | - | 
-| 11:00 - 12:30 | Practical | Scooter Morris | Visualizing very large protein complexes with UCSF ChimeraX | 
+| 11:00 - 12:30 | Practical | Scooter Morris | [Visualizing very large protein complexes with UCSF ChimeraX](https://rbvi.github.io/chimera-tutorials/presentations/chimerax-embo-2018-rome.html) | 
 | 12:30 - 14:30 | Poster session | - | - | 
 | 14:30 onward | Excursion and dinner | - | - | 
 ---
