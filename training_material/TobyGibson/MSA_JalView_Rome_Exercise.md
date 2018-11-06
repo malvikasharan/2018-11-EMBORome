@@ -64,13 +64,9 @@ they illustrate protein modularity very well.
     over the motif text pattern shown in bold, and then clicking Find
     All
 
-    1.  \- NPF motif RegExp is **NPF**
-
-        \- DPW motif RegExp is **DP\[FW\]**
-
-        \- Clathrin box RegExp is **L\[IVLMF\].\[IVLMF\]\[DE\]**
-
-        1.  
+    - NPF motif; RegExp is **NPF**
+    - DPW motif; RegExp is **DP\[FW\]**
+    - Clathrin box; RegExp is **L\[IVLMF\].\[IVLMF\]\[DE\]**
 
 -   Follow this up by creating and naming a New Feature from the pattern
     matches
