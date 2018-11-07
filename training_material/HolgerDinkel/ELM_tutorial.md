@@ -121,23 +121,6 @@ Linear Motif) prediction tool.
 
 3.  Try to get these instances TSV-file (tab-separated values)
 
-**10. (Optional) Get all annotated instances that contain the search
-term "retinoblastoma"** (again, using url
-[http://elm.eu.org/elms/browse\_instances.html]{.underline})
-
-1.  Compare the number of human instances with the number of viral
-    instances.
-
-2.  Read the abstract for the ELM class [LIG\_Rb\_LxCxE\_1]{.underline}
-    to find out why so many viral proteins interact with Rb.
-
-#### **13. (Optional) Search Pubmed for the terms \"noonan syndrome\" AND "motif"** (if you find more than one publication, then choose the one from 2007)
-
-1.  Find the protein sequence that was analysed in this publication,
-    retrieve the sequence from uniprot and submit it to ELM. Can you
-    find the two mutation hotspots that are responsible for the syndrome
-    described in the publication?
-
 **E1A adenoviral Protein**
 --------------------------
 
