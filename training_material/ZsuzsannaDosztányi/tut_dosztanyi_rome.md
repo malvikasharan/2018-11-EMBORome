@@ -1,21 +1,12 @@
-Prediction of protein disorder and disordered binding regions {#prediction-of-protein-disorder-and-disordered-binding-regions .western style="margin-top: 0in; margin-bottom: 0in; page-break-before: always"}
+Prediction of protein disorder and disordered binding regions 
 =============================================================
-
-\
 
 *Zsuzsanna Dosztányi*
 
-Exercise 1 {#exercise-1 .western}
+Exercise 1 
 ----------
 
-**DISPROT database and analyzing <span
-style="font-variant: normal"><span style="letter-spacing: normal"><span
-style="font-style: normal">Cyclin-dependent kinase inhibitor
-1B</span></span></span><span style="font-variant: normal"><span
-style="letter-spacing: normal"><span style="font-style: normal">
-</span></span></span><span style="font-variant: normal"><span
-style="letter-spacing: normal"><span
-style="font-style: normal">(p</span></span></span>27)**
+**DISPROT database and analyzing Cyclin-dependent kinase inhibitor 1B27)** 
 
 Find the uniprot entry: **P46527**. The Disprot database is linked to
 Uniprot.
@@ -27,28 +18,11 @@ What is the Disrprot ID corresponding to this protein?
 (You could have search for this protein directly through the DisProt
 database using the search box)
 
-\
+Go to the section **Disorder Region Details**
 
-Go to the section <span style="font-variant: normal"><span
-style="letter-spacing: normal"><span
-style="font-style: normal">**Disorder Region
-Details**</span></span></span><span style="font-variant: normal"><span
-style="letter-spacing: normal"><span
-style="font-style: normal">**.**</span></span></span>
+ **** How many regions are annotated as disordered?
 
-<span style="font-variant: normal"><span
-style="letter-spacing: normal"><span style="font-style: normal"> ****
-</span></span></span><span style="font-variant: normal"><span
-style="letter-spacing: normal"><span style="font-style: normal"><span
-style="font-weight: normal">How many regions are annotated as
-disordered?</span></span></span></span>
-
-<span style="font-variant: normal"><span
-style="letter-spacing: normal"><span style="font-style: normal"><span
-style="font-weight: normal">E</span></span></span></span><span
-style="font-variant: normal"><span style="letter-spacing: normal"><span
-style="font-style: normal"><span style="font-weight: normal">xamine the
-Region Evidence for each regions.</span></span></span></span>
+Examine the Region Evidence for each regions.
 
 What type of methods were used to show the disordered nature of the
 regions?
@@ -59,8 +33,6 @@ Can you confidently say that this protein is disordered?
 
 If you only had the first experiment (Circular Dichroism (Cd)
 Spectroscopy, Far-Uv ), would it be the same?
-
-\
 
 Check out the functional annotation: (**Functional Annotation**
 **section**)
@@ -77,10 +49,10 @@ Check out additional information. Go to **Disorder Overview**
 Which regions has a corresponding PFAM annotation? Does it overlap with
 a disorder annotation? Is there a contradiction?
 
-[]() Exercise 2 {#exercise-2 .western style="margin-top: 0in; margin-bottom: 0in"}
+[]() Exercise 2 
 ---------------
 
-### []()Disorder prediction methods {#disorder-prediction-methods .western}
+### []()Disorder prediction methods 
 
 1.  
 
@@ -99,31 +71,19 @@ Results are available for DISOPRED3 here:
 
 <http://bioinf.cs.ucl.ac.uk/psipred/result/33e7bc44-e1b3-11e8-9dd9-00163e110593>
 
-\
-
-\
-
--   
-
-\
-\
-
 Do the predictions agree with the experimental characterization of
 disorder?
 
-\
-\
-
-Exercise 3 {#exercise-3 .western style="margin-top: 0in; margin-bottom: 0in"}
+Exercise 3 
 ----------
 
 **IUPred2 – Potential function of disordered regions**
 
 Go to IUPred2a website (
-[http://iupred2a.elte.hu](http://iupred2a.elte.hu/){.western})
+[http://iupred2a.elte.hu](http://iupred2a.elte.hu/))
 
 Predict the disorder and disordered binding regions for protein for
-protein <span style="font-style: normal">**P47047**</span>***.*** The
+protein **P47047** The
 server can take a Uniprot ID or accession as well a sequence. Run the
 predictions with default option.
 
@@ -134,16 +94,8 @@ domains, predicted disordered binding regions and known disordered
 binding regions, can you guess the potential functions of the N-terminal
 region and the disordered region between the two domains?
 
-\
 
-\
- {#section .western style="margin-top: 0in; margin-bottom: 0in"}
--
-
-\
-\
-
-Exercise 4 {#exercise-4 .western align="left" style="margin-top: 0in; margin-bottom: 0in; line-height: 150%"}
+Exercise 4 
 ----------
 
 **MobiDB Database – using direct and indirect data to characterize
@@ -154,15 +106,11 @@ database, or use the link:
 
 http://mobidb.bio.unipd.it/P46527)
 
-\
-
 Go the ***Predictions*** section. Here you can find the results of
 additional prediction methods.
 
 Check the results of MobiDB-lite, which is a conservative (tries to
 avoid overprediction of disorder) consensus prediction method.
-
-\
 
 Go to the ***Curated*** section.
 
@@ -174,8 +122,6 @@ of this protein?
 
 Which evidence points to that this regions is ordered, and which points
 to order?
-
-\
 
 Go to the ***Indirect Evidence*** section.
 
@@ -189,32 +135,22 @@ Which regions are involved in linear peptide interactions?
 
 Which are the corresponding PDB IDs?
 
-\
-
 Go to the ****** ***Interactions*** section.
 
 Check the interactions sites with known partners.
 
-\
- {#section-1 .western style="margin-top: 0in; margin-bottom: 0in"}
 -
 
-Exercise 5 {#exercise-5 .western style="margin-top: 0in; margin-bottom: 0in"}
+Exercise 5 
 ----------
-
-\
 
 **DIBS database (courtesy of Dr. Bálint Mészáros)**
 
 The exercise focuses on the interactions of the disordered human H3.1
 histone protein.
 
-\
-
 The DIBS database (<http://dibs.enzim.ttk.mta.hu/>) contains
 interactions that are formed with ordered protein partners:
-
-\
 
 Find and open two interactions in DIBS with IDs **DI1000022** and
 **DI2000021**.
@@ -235,8 +171,6 @@ What kind of post-translational modifications (eg.
 phosphorylation/methylation/acetylation/etc.) are present on histone
 H3.1 in the two interactions?
 
-\
-
 (Optional)
 
 Different interactions that involve the same disordered segment of a
@@ -246,10 +180,3 @@ favored. If the difference between K~d~s is large, the higher K~d~
 interaction would normally never occur. What other factors can be at
 play in this specific case, so that both interactions can form inside
 the cell?
-
-\
-
-\
-
-\
-
