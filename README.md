@@ -33,7 +33,7 @@ DAY 2 - Tuesday 06 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:00 | Plenary Talk | Natasha Wood | [Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/training_material/natashawood/NatashaWood_Presentation.pdf) | 
+| 09:00 - 10:00 | Plenary Talk | Natasha Wood | [Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics](training_material/natashawood/NatashaWood_Presentation.pdf) | 
 | 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Lecture & Demo | Scooter Morris & Lars Juhl Jensen | Gaining insights into networks using Cytoscape | 
 | 12:00 - 13:00 | Practical | Scooter Morris, Nadezhda Doncheva & Lars Juhl Jensen | Analysis and visualization of PPI networks using Cytoscape and stringApp | 
