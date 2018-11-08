@@ -291,21 +291,32 @@ Go to the **ProViz server**
 
 Put p53 into the **Search for a Protein** field
 
-Explore the results!
+Explore the results, then check out these operations and questions:
+
+- Are there any methyllysine modifications?
+- What is a cumulative switch?
+- Are there any motifs in p53 than can antagonise MDM2 ubiquitination?
+- Are there any splice variants in the DNA-binding domain? Do any motifs get removed in splice variants? Do you think p53 researchers study all the splice variants?
+- What do the long structure modules correspond to?
+- Can tetrameric p53 be exported from the nucleus?
+- Click on the structure element of a short segment of p53. It goes to the PDB website (RCSB). Display the structure in the browser and adjust the viewing controls.
+- What is the difference between mutagenesis sites and sequence variants?
+- Which residue has the most sequence variants listed?
+- Are there any sequence variants in the MDM2 degron (towards the N-terminus)?
+
 
 ### **[References:]**
 
 +-----------------------------------------------------------------------+
-| Alexander et al. Sci. Sig 2011 "Spatial exclusivity combined with   |
-| positive and negative selection of phosphorylation motifs is the    |
-| basis for context-dependent mitotic signaling"                      |
-| \[[URL]{.underline}\]                                               |
+| > Alexander et al. Sci. Sig 2011 "Spatial exclusivity combined with   |
+| > positive and negative selection of phosphorylation motifs is the    |
+| > basis for context-dependent mitotic signaling"                      |
+| > \[[URL]{.underline}\]                                               |
 +-----------------------------------------------------------------------+
-| Davey NE, Travé G and Gibson TJ (2011), *\"How viruses hijack cell  |
-| regulation\"*, Trends Biochem Sci., Mar, 2011. Vol. 36, pp.         |
-| 159-169. \[[DOI]{.underline}\]                                      |
-| \[[[URL]{.underline}](http://dx.doi.org/10.1016/j.tibs.2010.10.002)]|
-|                                                                     |
+| > Davey NE, Travé G and Gibson TJ (2011), *\"How viruses hijack cell  |
+| > regulation\"*, Trends Biochem Sci., Mar, 2011. Vol. 36, pp.         |
+| > 159-169. \[[DOI]{.underline}\]                                      |
+| > \[[[URL]{.underline}](http://dx.doi.org/10.1016/j.tibs.2010.10.002)]|
 +-----------------------------------------------------------------------+
 | > Davey NE, Van Roey K, Weatheritt RJ, Toedt G, Uyar B, Altenberg B,  |
 | > Budd A, Diella F, Dinkel H and Gibson TJ (2012), *\"Attributes of   |
