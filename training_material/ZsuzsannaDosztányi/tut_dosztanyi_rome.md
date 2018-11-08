@@ -49,30 +49,42 @@ Check out additional information. Go to **Disorder Overview**
 Which regions has a corresponding PFAM annotation? Does it overlap with
 a disorder annotation? Is there a contradiction?
 
-[]() Exercise 2 
+
+Exercise 2 
 ---------------
 
-### []()Disorder prediction methods 
+### Disorder prediction methods 
 
-1.  
+
+    Collect prediction outputs for P46527 using various methods.
 
 The input can be:
 
--   -   -   
+ - the amino acid sequence in FASTA format
+ - amino acid sequence in raw format (without header)
+ - UNIPROT ID or accession number
 
-> Please note, some methods are sensitive to line breaks. Minimum and
-> maximum length of sequence
+    Please note, some methods are sensitive to line breaks. Minimum and maximum length of sequence
 
 Some disorder prediction methods:
 
--   -   -   -   
+ - IUPred2A https://iupred2a.elte.hu/
+    (Ignore ANCHOR predictions for the moment, once you get the results, unclick it)
+ - Globplot http://globplot.embl.de/
+ - PredictProtein http://ppopen.informatik.tu-muenchen.de/
+    select the option “Protein Disorder and Flexibility” option on th left menu. (MD, UCON, Norsp, Profbval)
+ - DISOPRED3 http://bioinf.cs.ucl.ac.uk/psipred/ (choose Disopred3 option!!!)
+    Results are available for DISOPRED3 here:
+    http://bioinf.cs.ucl.ac.uk/psipred/result/33e7bc44-e1b3-11e8-9dd9-00163e110593
 
-Results are available for DISOPRED3 here:
+or any other method you like.
 
-<http://bioinf.cs.ucl.ac.uk/psipred/result/33e7bc44-e1b3-11e8-9dd9-00163e110593>
+Do the predictions agree with the experimental characterization of disorder?
 
-Do the predictions agree with the experimental characterization of
-disorder?
+- Do the predictions agree with each other?
+- Which method predicts the most disorder?
+- Note the differences in the running time of the methods.
+
 
 Exercise 3 
 ----------
