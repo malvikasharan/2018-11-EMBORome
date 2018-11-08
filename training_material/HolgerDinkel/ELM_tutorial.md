@@ -83,14 +83,7 @@ Linear Motif) prediction tool.
 2.  If not, what's the closest to an 'annotated instance' that you can
     find? Investigate where this information might come from.
 
-#### **5. Search protein CDN1A\_HUMAN (P38936) for ELMs.**
-
-1.  How many instances of ELM class DOC\_PP1\_RVXF\_1 do you find?
-
-2.  What is the difference between these instances, particularly: what
-    is special about the instance at Position 155? Why?
-
-#### **6. Submit the entry name \'P53\_HUMAN\' **
+#### **5. Submit the entry name \'P53\_HUMAN\' **
 
 1.  Do the cell compartments make sense?
 
@@ -98,18 +91,18 @@ Linear Motif) prediction tool.
 
 3.  Is there a CDK site in p53? Is there a Cyclin Box in p53?
 
-#### **7. (Optional) Search ELM using the protein name \'MDM4\_HUMAN\' and look for the \'USP binding motif\' DOC\_USP7\_MATH\_1.**
+#### **6. (Optional) Search ELM using the protein name \'MDM4\_HUMAN\' and look for the \'USP binding motif\' DOC\_USP7\_MATH\_1.**
 
 1.  How many such motif instances are found in this protein sequence?
 
-#### **8. (Optional) Repeat this exercise with protein \'AMPH\_HUMAN\' and ELM class \'LIG\_Clathr\_ClatBox\_1\'**
+#### **7. (Optional) Repeat this exercise with protein \'AMPH\_HUMAN\' and ELM class \'LIG\_Clathr\_ClatBox\_1\'**
 
 1.  Try to assess the biological relevance of each of these instances.
 
 2.  Is the annotation for the biological relevance in accordance with
     the globular structure?
 
-#### **9. (Optional) Get all annotated instances for "Homo sapiens" that contain the search term "cilium" **
+#### **8. (Optional) Get all annotated instances for "Homo sapiens" that contain the search term "cilium" **
 
 (Hint: Use url
 [http://elm.eu.org/elms/browse\_instances.html]{.underline}).
