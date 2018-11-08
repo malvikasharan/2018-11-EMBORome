@@ -19,7 +19,7 @@ DAY 1 - Monday 05 November 2018
 | 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
 | 13:00 - 14:15	| Lunch break | - | - |
 | 14:15 - 15:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II (continued)](training_material/EMBO-Rome-Files-Marco) |
-| 15:00 - 16:00	| Lecture & Practical | Natasha Wood | Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs |
+| 15:00 - 16:00	| Lecture & Practical | Natasha Wood | [Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/training_material/natashawood/NatashaWood_WebResources.pdf) |
 | 16:00 - 16:30	| Icebreaker & coffee break | - | - |
 | 16:30 - 17:30	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
 | 17:30 - 18:30 | Lecture & Demo | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
@@ -33,7 +33,7 @@ DAY 2 - Tuesday 06 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:00 | Plenary Talk | Natasha Wood | Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics | 
+| 09:00 - 10:00 | Plenary Talk | Natasha Wood | [Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/training_material/natashawood/NatashaWood_Presentation.pdf) | 
 | 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Lecture & Demo | Scooter Morris & Lars Juhl Jensen | Gaining insights into networks using Cytoscape | 
 | 12:00 - 13:00 | Practical | Scooter Morris, Nadezhda Doncheva & Lars Juhl Jensen | Analysis and visualization of PPI networks using Cytoscape and stringApp | 
