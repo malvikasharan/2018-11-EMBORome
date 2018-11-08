@@ -55,8 +55,7 @@ Exercise 2
 
 ### Disorder prediction methods 
 
-
-    Collect prediction outputs for P46527 using various methods.
+Collect prediction outputs for P46527 using various methods.
 
 The input can be:
 
@@ -147,11 +146,11 @@ Which regions are involved in linear peptide interactions?
 
 Which are the corresponding PDB IDs?
 
-Go to the ****** ***Interactions*** section.
+Go to the ***Interactions*** section.
 
 Check the interactions sites with known partners.
 
--
+---
 
 Exercise 5 
 ----------
