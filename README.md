@@ -97,12 +97,12 @@ DAY 5 - Friday 09 November 2018
 | 10:30 - 11:30 | Practical | Scooter Morris | Visualising complexes connected with XL-MS data using UCSF Chimera | 
 | 11:30 - 12:10 | Lecture | Allegra Via | Tools for structure of PPIs and interfaces of PPIs | 
 | 12:10 - 12:30 | Lecture | Lars Juhl Jensen | [Medical data mining: linking diseases, drugs, and adverse reactions](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/medical_data_mining.pdf) | 
-| 12:30 - 13:30 | Practical | Scooter Morris, Nadezhda Doncheva & Lars Juhl Jensen | Network clustering and enrichment analyses in Cytoscape | 
-| 13:30 - 15:00 | Lunch break | - | - | 
-| 15:00 - 16:30 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
+| 12:30 - 14:00 | Practical | Scooter Morris, Nadezhda Doncheva & Lars Juhl Jensen | Network clustering and enrichment analyses in Cytoscape | 
+| 14:00 - 15:00 | Lunch break | - | - | 
+| 15:00 - 16:00 | Practical | Scooter Morris & Nadezhda Doncheva | Using Cytoscape to integrate protein complex data (CORUM, Complexes portal) into PPI networks | 
+| 16:00 - 16:30 | Coffee break | - | - |
 | 16:30 - 17:30 | Plenary talk | Gianni Cesareni | Investigating the protein interaction network supporting the skeletal muscle regeneration program | 
-| 17:30 - 18:00 | Coffee break
-| 18:00 - 19:15 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
+| 17:30 - 19:00 | Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
