@@ -81,7 +81,7 @@ DAY 4 - Thursday 08 November 2018
 | 15:00 - 16:30 | Lecture & Practical | Miguel Andrade  | [Structure and interactions of repeated and low complexity IDRs in proteins](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/lesson_repeats_1.pdf) ([MR1.fasta](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/MR1_fasta.txt))| 
 | 16:30 - 17:00 | Coffee break | - | - | 
 | 17:00 - 18:30 | Option-1: Practical session | Hands-on session on the presented tools with the trainers | Work on own/publicly available disease data |
-| 17:00 - 18:30 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling III: automated access of online tools using REST interfaces](training_material/HolgerDinkel/index.md) | 
+| 17:00 - 18:30 | Option-2: Practical session | Holger Dinkel | [Linear motif biology and prediction, cooperativity in cellular signaling III: automated access of online tools using REST interfaces](training_material/HolgerDinkel/Exploring_Biological_Databases.pdf) [[Exercises](training_material/HolgerDinkel/index.md)] | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
