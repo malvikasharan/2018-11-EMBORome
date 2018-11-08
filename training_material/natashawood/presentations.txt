@@ -1,0 +1,2 @@
+NWood_Understanding PPI and drug-resistance profiles of HIV-1 protein variants using molecular dynamics.pdf
+NWood_Web Resources describing results of PPI experiments, design of such databases, minimal information to decribe PPIs.pdf
