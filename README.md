@@ -19,7 +19,7 @@ DAY 1 - Monday 05 November 2018
 | 11:30 - 13:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II](training_material/EMBO-Rome-Files-Marco) |
 | 13:00 - 14:15	| Lunch break | - | - |
 | 14:15 - 15:00	| Practical | Marco Punta | [Resources for Protein families, protein domains and protein complexes - II (continued)](training_material/EMBO-Rome-Files-Marco) |
-| 15:00 - 16:00	| Lecture & Practical | Natasha Wood | [Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/training_material/natashawood/NatashaWood_WebResources.pdf) |
+| 15:00 - 16:00	| Lecture & Practical | Natasha Wood | [Web resources describing results of PPI experiments; design of such databases, minimal information to describe PPIs](training_material/natashawood/NatashaWood_WebResources.pdf) |
 | 16:00 - 16:30	| Icebreaker & coffee break | - | - |
 | 16:30 - 17:30	| Lecture & Practical | Lars Juhl Jensen | Protein association networks with STRING: [Lecture](training_material/string_database.pdf) & [Practical](https://jensenlab.org/training/string/)  |
 | 17:30 - 18:30 | Lecture & Demo | Scooter Morris | [Introducing network analysis using Cytoscape](https://cytoscape.org/cytoscape-tutorials/presentations/embo-ppi-2018-rome.html) |
