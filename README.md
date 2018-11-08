@@ -72,7 +72,7 @@ DAY 4 - Thursday 08 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | [Biology and prediction of intrinsically unstructured peptide regions](training_material/ZsuzsannaDosztányi/tut_dosztanyi_rome.md) | 
+| 09:00 - 10:30 | Lecture & Practical | Zsuzsanna Dosztányi | [Biology and prediction of intrinsically unstructured peptide regions](https://github.com/malvikasharan/2018-11-EMBORome/blob/master/training_material/ZsuzsannaDoszta%CC%81nyi/tut_dosztanyi_rome.md) | 
 | 10:30 - 11:00 | Coffee break | - | - | 
 | 11:00 - 11:30 | Lecture | Holger Dinkel | [Introduction of Linear motifs and IDRs](training_material/HolgerDinkel/Short_Linear_Motifs.pdf) | 
 | 11:30 - 13:00 | Practical | Holger Dinkel & Toby Gibson | [Linear motif biology and prediction, cooperativity in cellular signaling (I)](training_material/HolgerDinkel/Elm_Phospho_Switches.pdf) | 
