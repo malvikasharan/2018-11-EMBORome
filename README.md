@@ -45,7 +45,7 @@ DAY 2 - Tuesday 06 November 2018
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
 | 14:00 - 15:30 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
-| 15:30 - 1:00 | Coffee break | - | - | 
+| 15:30 - 16:00 | Coffee break | - | - | 
 | 16:00 - 18:00 | Public Unseminar | Malvika Sharan and Holger Dinkel | [Bioinformatics Tool-omics](https://piratenpad.de/p/RUB1). (optional informal discussion and activity | 
 | 19:30 onwards | Dinner | - | - | 
 ---
@@ -114,7 +114,7 @@ DAY 6 - Saturday 10 November 2018
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
 | 09:00 - 10:00 | Practical session | Miguel Andrade | [Exploring tools for modules that promote protein aggregation](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/lesson_repeatsdbs_1.pdf) | 
-| 10:00 - 10:30 | Coffee break | 
+| 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Practical session | Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
 | 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective: [Shared files for the group task](https://docs.google.com/document/d/1ePbuhKO9-B3FMidLZ-b0sgyrxHIRi9ZPTQgrEaTbg7Q/edit?usp=sharing) | 
 | 12:45 - 13:00 | Final Q&A session and wrap-up | - | - |
