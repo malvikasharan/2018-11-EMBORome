@@ -116,7 +116,7 @@ DAY 6 - Saturday 10 November 2018
 | 09:00 - 10:00 | Practical session | Miguel Andrade | [Exploring tools for modules that promote protein aggregation](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/lesson_repeatsdbs_1.pdf) | 
 | 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Practical session | Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
-| 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective: [Shared files for the group task](https://docs.google.com/document/d/1ePbuhKO9-B3FMidLZ-b0sgyrxHIRi9ZPTQgrEaTbg7Q/edit?usp=sharing) | 
+| 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective: [Shared files for the group task](https://drive.google.com/drive/folders/1l_pLCCviojQrStoV3flZ-_cR3cNjA0M8?usp=sharing) | 
 | 12:45 - 13:00 | Final Q&A session and wrap-up | - | - |
 | Time will be announced | Dinner | - | - | 
 ---
