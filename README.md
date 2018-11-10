@@ -48,7 +48,7 @@ DAY 2 - Tuesday 06 November 2018
 | :---------- | :---------- | :---------- |:---------- | 
 | 14:00 - 15:30 | Practical | Toby Gibson | [Revealing interactive features in protein multiple sequence alignments with Jalview](training_material/TobyGibson/MSA_JalView_Rome_Exercise.md) | 
 | 15:30 - 16:00 | Coffee break | - | - | 
-| 16:00 - 18:00 | Public Unseminar | Malvika Sharan and Holger Dinkel | [Bioinformatics Tool-omics](https://piratenpad.de/p/RUB1). (optional informal discussion and activity | 
+| 16:00 - 18:00 | Public Unseminar | Malvika Sharan and Holger Dinkel | [Bioinformatics Tool-omics](https://piratenpad.de/p/RUB1) - optional informal discussion and activity | 
 | 19:30 onwards | Dinner | - | - | 
 ---
 
