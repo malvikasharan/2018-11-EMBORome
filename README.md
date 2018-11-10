@@ -5,6 +5,8 @@
 - EMBO-hosted [webpage for the course](http://events.embo.org/18-protein-protein/)
 - Twitter search results for [#EMBOPPI2018](https://twitter.com/search?q=%23EMBOPPI2018&src=typd&lang=en-gb)
 
+<img src="images/EMBORomeGroup.jpeg" width=800>
+
 DAY 1 - Monday 05 November 2018
 --------------------------------
 
