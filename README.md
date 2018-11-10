@@ -115,7 +115,7 @@ DAY 6 - Saturday 10 November 2018
 
 | Time | Activity | Responsible | Title |
 | :---------- | :---------- | :---------- |:---------- | 
-| 09:00 - 10:00 | Practical session | Miguel Andrade | [Exploring tools for modules that promote protein aggregation](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/lesson_repeatsdbs_1.pdf) [Random UniprotId](https://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&random=yes&format=tab&columns=id) | 
+| 09:00 - 10:00 | Practical session | Miguel Andrade | [Exploring tools for modules that promote protein aggregation](https://raw.githubusercontent.com/malvikasharan/2018-11-EMBORome/master/training_material/MiguelAndrade/lesson_repeatsdbs_1.pdf) [[Random UniprotId](https://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&random=yes&format=tab&columns=id)] | 
 | 10:00 - 10:30 | Coffee break | - | - | 
 | 10:30 - 12:00 | Practical session | Hands-on session on the presented tools with the trainers | work on own/publicly available disease data | 
 | 12:00 - 12:45	| Summary | Group Presentation | Putting everything in perspective: [Shared files for the group task](https://drive.google.com/drive/folders/1l_pLCCviojQrStoV3flZ-_cR3cNjA0M8?usp=sharing) | 
